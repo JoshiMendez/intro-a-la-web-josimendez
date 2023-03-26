@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #202124;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    /*background-color: aqua;*/
+    padding: 0 12px;
+}
+
+.cabecera-principal{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /*background-color: blueviolet;*/
+
+}
+
+.cabecera-principal a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #BDC1C6;
+
+}
+
+.dots-logo{
+    display: inline-block;
+    background-image: url(assets/logodepunto.svg);
+    height: 24px;
+    width: 24px;
+}
+
+.cabecera-principal a img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+main{
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: blue;*/
+}
+
+main a img{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    /*background-color: aquamarine;*/
+}
+
+.container p{
+    font-size: small;
+    color: #BDC1C6;
+}
+
+.searcher{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 330px;
+    background-color: pink;
+    padding: 8px;
+}
+
+.searcher input{
+    width: 100%;
+}
+
+.search-logo img{
+    display: inline-block;
+    height: 17px;
+}
+
+.micro-logo img{
+    display: inline-block;
+    width: 17px;
+}
+.searcher-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.searcher-buttons button{
+    border: none;
+    border-radius: 4px;
+    background-color: #303134;
+    padding: 12px;
+    color: #BDC1C6;
+}

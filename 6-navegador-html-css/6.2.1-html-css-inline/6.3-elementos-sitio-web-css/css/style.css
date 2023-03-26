@@ -1,0 +1,40 @@
+body{
+    background-color: #219ebc;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #ffb703;
+    color: azure;
+    padding: 100px 50px 25px 12px;
+    margin: 20px;
+}
+.secciones{
+    width: 100%;
+    text-align: center;
+}
+section{
+    display: inline-block;
+    margin: 25px;
+    background-color: #fb8500;
+    padding: 25px;
+    border-radius: 17px;
+    box-shadow: 5px 5px 5px;
+    border: 1px solid gray;
+}
+.ciudad{
+    width: 250px;
+    height: 125px;
+    border-radius: 17px;
+
+}
+
+.descripcion{
+    width: 250px;
+
+}
+#cuerpo{
+    background-color: #588157;
+    padding: 20px;
+    margin: 0 20px;
+
+}
